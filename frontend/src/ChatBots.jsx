@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 
-const ChatBot = () => {
+const ChatBots = () => {
   const [formData, setFormData] = useState("");
   const [userMessage, setUserMessage] = useState([]);
   const messageEndRef = useRef(null);
@@ -123,4 +123,4 @@ const ChatBot = () => {
     </div>
   );
 };
-export default ChatBot;
+export default ChatBots;

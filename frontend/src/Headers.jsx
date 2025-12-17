@@ -1,5 +1,5 @@
 import React from 'react'
-const Header = () => {
+const Headers = () => {
   return (
     <div className='flex bg-gray-200 p-4 font-semibold text-xl  '>
 <div>Child Dev
@@ -9,4 +9,4 @@ const Header = () => {
     </div>
   )
 }
-export default Header;
+export default Headers;
