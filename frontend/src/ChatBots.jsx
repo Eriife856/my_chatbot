@@ -40,7 +40,7 @@ const ChatBots = () => {
       // setUserMessage(prev=>[...prev, {sender: 'bot', text: data.response}]);
       // setFormData('');
       console.log(data)
-      const words = data.response.split(" ");
+      const words = data.response
       let i = 0;
         const interval = setInterval(() => {
         setUserMessage((prev) => {
